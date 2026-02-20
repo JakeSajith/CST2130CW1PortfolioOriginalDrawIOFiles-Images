@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram id="sm-7BL5gc7NotLGRHy6v" name="Page-1">
+    <mxGraphModel dx="925" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;strokeWidth=3;fontSize=16;fontStyle=1;verticalAlign=top;spacingTop=8;align=center;" value="Emirates DPES" vertex="1">
+          <mxGeometry height="1150" width="1100" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UC0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Access Unified Web Platform" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UC1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Register / Login &amp; Manage Profile" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="UC2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Search &amp; Book Flight" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UC3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Process Payment&#xa;(Multi-Currency &amp; Portals)" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="UC4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Manage Booking&#xa;(Modify / Upgrade / Cancel)" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="UC5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Online Check-In &amp;&#xa;Digital Boarding Pass (QR)" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="UC6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="View Skywards Loyalty&#xa;&amp; Upgrade Seat" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="UC7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Track Fares &amp;&#xa;Set Price Alerts" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="UC8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Manage Family&#xa;Bookings &amp; Minors" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="UC9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Receive Flight Notifications" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="UC10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Contact Support&#xa;&amp; Raise Ticket" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="UC11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C8102E;fontSize=11;" value="Submit Post-Flight&#xa;Feedback &amp; Review" vertex="1">
+          <mxGeometry height="55" width="240" x="580" y="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="Passenger" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Passenger" vertex="1">
+          <mxGeometry height="60" width="40" x="100" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Support" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Support Staff" vertex="1">
+          <mxGeometry height="60" width="40" x="100" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="SystemActor" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="System" vertex="1">
+          <mxGeometry height="60" width="40" x="1460" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="Payment Gateway" vertex="1">
+          <mxGeometry height="60" width="40" x="1460" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="p0" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC0" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p8" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p9" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p10" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p11" edge="1" parent="1" source="Passenger" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s10" edge="1" parent="1" source="Support" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" edge="1" parent="1" source="Support" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys9" edge="1" parent="1" source="SystemActor" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys7" edge="1" parent="1" source="SystemActor" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pay3" edge="1" parent="1" source="Payment" style="endArrow=open;endSize=8;endFill=0;strokeColor=#555555;" target="UC3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="UC2" style="endArrow=open;endSize=10;endFill=0;dashed=1;dashPattern=8 4;strokeColor=#000000;fontSize=11;fontStyle=2;" target="UC3" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="327" />
+              <mxPoint x="860" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="UC4" style="endArrow=open;endSize=10;endFill=0;dashed=1;dashPattern=8 4;strokeColor=#000000;fontSize=11;fontStyle=2;" target="UC3" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="497" />
+              <mxPoint x="850" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ext1" edge="1" parent="1" source="UC6" style="endArrow=open;endSize=10;endFill=0;dashed=1;dashPattern=4 4;strokeColor=#C8102E;fontSize=11;fontStyle=2;" target="UC10" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="667" />
+              <mxPoint x="855" y="1007" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
