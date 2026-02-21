@@ -1,14 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
   <diagram id="ccsc_seq_v1" name="Page-1">
-    <mxGraphModel dx="932" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1850" math="0" shadow="0">
+    <mxGraphModel dx="854" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;" value="Event Sign-up / Volunteer Registration — Sequence Diagram" vertex="1">
           <mxGeometry height="40" width="1380" y="8" as="geometry" />
-        </mxCell>
-        <mxCell id="cls_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;fontColor=#333333;align=left;spacingLeft=6;verticalAlign=top;" value="&lt;b&gt;Classes identified:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;&lt;u&gt;Sign Up for Event:&lt;/u&gt;&lt;br/&gt;• CelebrityMember&lt;br/&gt;• EventRegistrationSystem&lt;br/&gt;• EventCatalogue&lt;br/&gt;• RegistrationRecord&lt;br/&gt;• FeeRecord&lt;br/&gt;&lt;br/&gt;&lt;u&gt;Volunteer for Event:&lt;/u&gt;&lt;br/&gt;• CelebrityMember&lt;br/&gt;• EventRegistrationSystem&lt;br/&gt;• RegistrationRecord&lt;br/&gt;&lt;br/&gt;&lt;u&gt;Shared:&lt;/u&gt;&lt;br/&gt;• MembershipDatabase" vertex="1">
-          <mxGeometry height="330" width="270" x="1405" y="55" as="geometry" />
         </mxCell>
         <mxCell id="lh_CM" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fontStyle=5;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" value="&lt;i&gt;Celebrity Member&lt;/i&gt;" vertex="1">
           <mxGeometry height="52" width="175" x="20" y="62" as="geometry" />
