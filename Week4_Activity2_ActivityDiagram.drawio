@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.1">
+  <diagram id="7m0b33KR9eyPdMykq9Lv" name="Page-1">
+    <mxGraphModel dx="2563" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="root1" parent="0" />
+        <mxCell id="bg_title" parent="root1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontStyle=1;" value="Event Sign-up / Volunteer Registration Process&#xa;Activity Diagram" vertex="1">
+          <mxGeometry height="40" width="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_lh1" parent="root1" style="strokeColor=#000000;fillColor=#DAE8FC;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;html=1;" value="Celebrity Member" vertex="1">
+          <mxGeometry height="40" width="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_lh2" parent="root1" style="strokeColor=#000000;fillColor=#D5E8D4;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;html=1;" value="Events Co-coordinator" vertex="1">
+          <mxGeometry height="40" width="1300" x="400" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_l1" parent="root1" style="rounded=0;fillColor=#DAE8FC;strokeColor=#000000;opacity=30;" value="" vertex="1">
+          <mxGeometry height="1390" width="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_l2" parent="root1" style="rounded=0;fillColor=#D5E8D4;strokeColor=#000000;opacity=30;" value="" vertex="1">
+          <mxGeometry height="1390" width="1300" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n_start" parent="root1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="185" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="n_browse" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Browse Available Events" vertex="1">
+          <mxGeometry height="50" width="230" x="85" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="n_provide" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Provide Registration Data" vertex="1">
+          <mxGeometry height="50" width="230" x="85" y="243" as="geometry" />
+        </mxCell>
+        <mxCell id="n_note1" parent="root1" style="shape=note;whiteSpace=wrap;html=1;size=14;fontSize=9;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Object Node (Data PIN)&lt;/b&gt;&lt;hr/&gt;Member ID&lt;br/&gt;Event ID" vertex="1">
+          <mxGeometry height="66" width="180" x="335" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="n_verify" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Verify Membership Status" vertex="1">
+          <mxGeometry height="50" width="230" x="535" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="n_d1" parent="root1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Is Membership Active?" vertex="1">
+          <mxGeometry height="60" width="170" x="565" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="n_disp_err" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Display Ineligibility Error" vertex="1">
+          <mxGeometry height="50" width="205" x="800" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="n_check_cap" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Check Event Capacity" vertex="1">
+          <mxGeometry height="50" width="230" x="535" y="513" as="geometry" />
+        </mxCell>
+        <mxCell id="n_d2" parent="root1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Is Capacity Available?" vertex="1">
+          <mxGeometry height="60" width="170" x="565" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="n_waitlist" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Place on Waiting List" vertex="1">
+          <mxGeometry height="50" width="205" x="800" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="n_fork" parent="root1" style="rounded=0;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="10" width="500" x="490" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="n_rec_inv" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Record Member Involvement" vertex="1">
+          <mxGeometry height="50" width="220" x="455" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="n_note2" parent="root1" style="shape=note;whiteSpace=wrap;html=1;size=14;fontSize=9;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Object Node (Data PIN)&lt;/b&gt;&lt;hr/&gt;Involvement Type&lt;br/&gt;{Participant | Volunteer}" vertex="1">
+          <mxGeometry height="66" width="195" x="670.5" y="722" as="geometry" />
+        </mxCell>
+        <mxCell id="n_d3" parent="root1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Is Role Volunteer?" vertex="1">
+          <mxGeometry height="60" width="150" x="490" y="818" as="geometry" />
+        </mxCell>
+        <mxCell id="n_spec_skill" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Specify Skill Type" vertex="1">
+          <mxGeometry height="50" width="220" x="455" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="n_note3" parent="root1" style="shape=note;whiteSpace=wrap;html=1;size=14;fontSize=9;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Skill Classification&lt;/b&gt;&lt;hr/&gt;{Admin | Performer}" vertex="1">
+          <mxGeometry height="60" width="190" x="695" y="918" as="geometry" />
+        </mxCell>
+        <mxCell id="n_assign_seat" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Assign Seat / Ticket" vertex="1">
+          <mxGeometry height="50" width="200" x="668" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="n_calc_fees" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Calculate Event Fees" vertex="1">
+          <mxGeometry height="50" width="220" x="830" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="n_update_fee" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Update Fee Record" vertex="1">
+          <mxGeometry height="50" width="220" x="870" y="823" as="geometry" />
+        </mxCell>
+        <mxCell id="n_note4" parent="root1" style="shape=note;whiteSpace=wrap;html=1;size=14;fontSize=9;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Object Node (Data PIN)&lt;/b&gt;&lt;hr/&gt;Fee Status&lt;br/&gt;{Paid | Owing}" vertex="1">
+          <mxGeometry height="66" width="195" x="1130" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="n_join" parent="root1" style="rounded=0;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="10" width="500" x="490" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="n_finalise" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Finalise Sign-up Record" vertex="1">
+          <mxGeometry height="50" width="230" x="535" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="n_notify" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Notify Member of Confirmation" vertex="1">
+          <mxGeometry height="50" width="230" x="535" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="n_receive" parent="root1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Receive Event Confirmation" vertex="1">
+          <mxGeometry height="50" width="230" x="85" y="1238" as="geometry" />
+        </mxCell>
+        <mxCell id="n_stop_ring" parent="root1" style="ellipse;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="38" width="38" x="181" y="1328" as="geometry" />
+        </mxCell>
+        <mxCell id="n_stop_fill" parent="root1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="191" y="1338" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="root1" source="n_start" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_browse" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="root1" source="n_browse" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_provide" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="root1" source="n_provide" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_verify" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="313" />
+              <mxPoint x="650" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="root1" source="n_verify" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_d1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="root1" source="n_d1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n_disp_err" value="[No]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="root1" source="n_d1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_check_cap" value="[Yes]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="root1" source="n_check_cap" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_d2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="root1" source="n_d2" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n_waitlist" value="[No]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="root1" source="n_d2" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.32;entryY=0;entryDx=0;entryDy=0;" target="n_fork" value="[Yes]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="root1" source="n_fork" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_rec_inv" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="root1" source="n_fork" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.90;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_calc_fees" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="root1" source="n_rec_inv" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_d3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="root1" source="n_d3" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_spec_skill" value="[Yes]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="root1" source="n_d3" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n_assign_seat" value="[No]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="root1" source="n_spec_skill" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.15;entryY=0;entryDx=0;entryDy=0;" target="n_join" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="root1" source="n_assign_seat" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.84;entryY=0;entryDx=0;entryDy=0;" target="n_join" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="768" y="900" />
+              <mxPoint x="912" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="root1" source="n_calc_fees" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_update_fee" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="root1" source="n_update_fee" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.90;entryY=0;entryDx=0;entryDy=0;" target="n_join" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="root1" source="n_join" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.32;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_finalise" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="root1" source="n_finalise" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_notify" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="root1" source="n_notify" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_receive" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1205" />
+              <mxPoint x="200" y="1205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e24" edge="1" parent="root1" source="n_receive" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n_stop_ring" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en1" edge="1" parent="root1" source="n_provide" style="dashed=1;endArrow=none;startArrow=none;html=1;strokeColor=#888888;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n_note1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en2" edge="1" parent="root1" source="n_rec_inv" style="dashed=1;endArrow=none;startArrow=none;html=1;strokeColor=#888888;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n_note2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en3" edge="1" parent="root1" source="n_spec_skill" style="dashed=1;endArrow=none;startArrow=none;html=1;strokeColor=#888888;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n_note3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en4" edge="1" parent="root1" source="n_update_fee" style="dashed=1;endArrow=none;startArrow=none;html=1;strokeColor=#888888;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n_note4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
